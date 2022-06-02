@@ -1,0 +1,48 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.img-fluid{
+    width: 15rem;
+    height:15rem;
+}
+.card{
+    width: 20rem;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background: transparent;
+}
+.btn:hover{
+    background-color:green;
+    border: none;
+    outline: none;
+}
+.container{
+    justify-content: space-around;
+    align-items: center;
+    align-self: middle;
+}
+.card-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#product-img{
+    width: 30rem;
+    height: 30rem;
+    border: 1px solid grey;
+}
+.details{
+    margin-left: 30px;
+    
+    margin-bottom: 8rem;
+    width: 100%;
+    
+}
+.product{
+    align-self: center;
+}
+.text{
+    align-items: center;
+    margin-top: 15rem;
+}

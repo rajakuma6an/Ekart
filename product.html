@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>product</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">SHOPPING CART</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="navbar-item">
+              <a href="./index.html" class="nav-link">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="./cart.html" class="nav-link">Cart</a>
+            </li>
+            <li class="navbar-item">
+              <a href="./login.html" class="nav-link">Login</a>
+            </li>
+            <li class="navbar-item">
+              <a href="./signup.html" class="nav-link">Signup</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--product-->
+    <div class="bg-light text-light">
+    <h1 class="text-center">Product Details</h1>
+</div>
+    <section id="product" class="bg-light" >
+        <div id="product-container" class="container d-flex">
+            <div>
+                <img src=""   alt="" id="product-img">
+            </div>
+            <div class="details">
+                <h5 id="product-title"></h5>
+                <span id="product-category"></span>
+                <h4 id="product-price"></h4>
+                <button  class="btn-primary"  id="btn-primary"></button>
+                <p id="product-des"></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nobis neque accusamus dicta hic tenetur modi officiis consequatur nemo magnam numquam ipsam libero, repellendus fuga eum facere ex. Iste nulla culpa inventore incidunt possimus voluptatem laboriosam error alias sequi excepturi ipsa quae qui, ullam corporis vitae placeat dolore quos odit?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, suscipit? Saepe, iure? Amet reprehenderit maxime fugiat odit earum repudiandae veritatis saepe architecto inventore et rerum ipsa, illo, recusandae velit quos error magni voluptatum nisi molestias facere quia libero, mollitia aperiam eius. Modi dolorem animi, nisi non ut fugiat est eaque!</p>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="bg-dark text-light">
+      <div class="footer container">
+        <h5 class="py-2">Featured</h5>
+        <ul class="text-uppercase list-unstyled">
+            <li><a href="#">men's clothing</a></li>
+            <li><a href="#">women's clothing</a></li>
+            <li><a href="#">jewellary</a></li>
+            <li><a href="#">electronics</a></li>
+        </ul>
+        <p class="">Shopping cart @ 2022.All Rights reserved.</p>
+      </div>
+    </footer>
+    <script  src="./product.js" ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
